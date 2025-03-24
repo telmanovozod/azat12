@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 136px;
+}
+.first-section .EFood li {
+    gap: 460px;
+}
+.text{
+    width: 120px;
+}
+
+ul{
+    display: flex;
+    gap: 60px;
+    color: rgba(54, 56, 83, 1);
+}
+li{
+    list-style: none;
+}
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.wrapper{
+    display: flex;
+    gap: 34px;
+    align-items: center;
+}
+.button-1{
+    width: 120px;
+    height: 50.41px;
+    background-color:rgba(255, 122, 80, 1) ;
+    border-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+    gap: 34px;
+    transition: all;
+    
+}
+.button-2{
+    width: 163px;
+    height: 50.41px;
+    background-color:rgba(255, 122, 80, 1) ;
+    border-radius: 5px;
+    color:rgba(255, 255, 255, 1) ;
+    border: none;
+}
+
+.title{
+    font-family: Rubik;
+font-weight: 500;
+font-size: 66px;
+line-height: 78.21px;
+letter-spacing: 0%;
+    color: rgba(54, 56, 83, 1);
+
+}
+.text-orange{
+    color: rgba(255, 122, 80, 1);
+}
+.wrapper-2{
+    margin: 95px;
+}
+.section-2{
+    margin: 136px 0px;
+}
+section{
+    display: flex;
+    margin: 87px;
+    align-items: center;
+}
+.p-1{
+    color: rgba(54, 56, 83, 1);
+    margin: 23px 0px;
+}
+.p-2{
+    color: rgba(54, 56, 83, 1);
+    margin: 136px 0px;
+}
+.text-orange2{
+    color: rgba(255, 122, 80, 1);
+}
+.text-orange3{
+    color:rgba(255, 122, 80, 1) ;
+}
+.title2{
+    font-family: sans-serif;
+font-weight: 500;
+font-size: 36px;
+line-height: 50px;
+letter-spacing: 0%;
+     color:rgba(54, 56, 83, 1) ;
+}
+.button-3{
+    width: 176px;
+    height: 58px;
+    background-color: rgba(255, 122, 80, 1);
+    border-radius: 50px 50px 0px 50px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 1);
+    border: none;
+}
+
+.section-3{
+    gap: 50px;
+}
+.text-orange4{
+    color:rgba(255, 122, 80, 1) ;
+}
+.title3{
+    color: rgba(54, 56, 83, 1);
+    text-align: center;
+}
+
+.section-4{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 156px;
+    
+}
+.section-4 h2 {
+    font-size: 24px;
+    line-height: 30px;
+}
+.orange{
+    color: rgba(255, 104, 56, 1);
+}
+.section-4 p {
+    font-family: sans-serif;
+font-weight: 300;
+font-size: 18px;
+line-height: 30px;
+letter-spacing: 0%;
+}
+.section-4 button{
+    width: 79px;
+    height: 33px;
+    background-color: rgba(255, 122, 80, 1);
+    border-radius: 10px 10px 0px 1opx;
+    border: none;
+
+}
+.section-5 span{
+    color: rgba(54, 56, 83, 1);
+}
+.section-5 h1{
+    color: rgba(255, 122, 80, 1);
+    font-size: 36px;
+    margin: 30px 0px;
+}
+.section-5 {
+    margin: 281px 176px ;
+    font-size: 20px;
+    color: rgba(54, 56, 83, 1);
+}
+
+footer div {
+    height: 312px;
+    background-color: rgba(255, 122, 80, 1);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 72px;
+}
+
+footer div h3 {
+    font-family: sans-serif;
+font-weight: 500;
+font-size: 40px;
+line-height: 47.4px;
+letter-spacing: 0%;
+text-align: center;
+color: white;
+
+}
+
+footer div input {
+    width: 838px;
+    height: 78px;
+    border-radius: 70px;
+    border: none;
+    outline: none;
+}
